@@ -1,0 +1,130 @@
+    /* Header Styling */
+    .navigation{
+        background :rgb(211, 202, 205);
+    }
+    .navigation  {
+        overflow:auto;
+    }
+    .navigation .left li {
+        margin : 5px 10px;
+        padding-bottom:3px;
+        float:left;
+        font-size:25px;
+        list-style:none;
+    }
+    #title{
+        float: right;
+        font-size: 40px;
+        padding: 0px 100px 10px 10px;
+        text-decoration: none;
+        display: block;
+        color: crimson;
+        font-family: fantasy;
+
+    }
+    #title:hover{
+        color: rgb(104, 13, 31);
+    }
+
+    .navigation li a{
+        padding :3px 3px;
+        color: black;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+        font-weight: bolder;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+    
+    }
+    .navigation li a:hover{
+        color:crimson;
+        border-bottom: 3px solid crimson;
+        font-weight: bolder ;
+    }
+
+
+
+    /* Body */
+
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        object-fit: cover;
+        width: 300px;
+        height:200px;
+    }
+    
+    img:hover {
+        box-shadow: 0 0 2px 4px crimson;
+    }
+
+
+    /* Footer Styling */
+    footer{
+        background : rgb(211, 202, 205);
+        text-align: center;
+        color:black;
+        font-weight: bolder ;
+    }
+    .footer-line1{
+        font-size: 25px;
+        padding : 10px 0;
+        font-family: emoji;
+    }
+    .footer-line2{
+        font-family:emoji;
+        font-size:25px;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .fa:hover {
+        opacity: 0.7;
+        color:crimson;
+    }
+
+/* @media(max-width:500px){
+    .navigation .left li {
+        margin : 2px 4px;
+        padding-bottom:1px;
+        font-size:5px;
+    }
+    #title{
+        font-size: 5px;
+        padding: 0px 20px 4px 4px;
+    }
+    .navigation li a{
+        padding :1px 1px;
+        border-bottom: 1px solid transparent;    
+    }
+    .navigation li a:hover{
+        border-bottom: 1px solid crimson;
+    }
+
+
+
+    /* Body */
+/* 
+    img {
+        width: 60px;
+        height:40px;
+    }
+    .footer-line1{
+        font-size: 5px;
+        padding : 2px 0;
+    }
+    .footer-line2{
+        font-size:8px;
+    }
+    .fa {
+        padding: 5px;
+        font-size: 6px;
+        width: 10px;
+    }
+}  */

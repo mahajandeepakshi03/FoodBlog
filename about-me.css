@@ -1,0 +1,108 @@
+/* Header Styling */
+.navigation{
+    background :rgb(211, 202, 205);
+}
+.navigation  {
+    overflow:auto;
+}
+.navigation .left li {
+    margin : 5px 10px;
+    padding-bottom:3px;
+    float:left;
+    font-size:25px;
+    list-style:none;
+}
+
+#title{
+    float: right;
+    font-size: 40px;
+    padding: 0px 100px 10px 10px;
+    text-decoration: none;
+    display: block;
+    color: crimson;
+    font-family: fantasy;
+
+}
+#title:hover{
+    color: rgb(104, 13, 31);
+}
+
+.navigation li a{
+    padding :3px 3px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+  
+}
+.navigation li a:hover{
+    color:crimson;
+    border-bottom: 3px solid crimson;
+    font-weight: bolder ;
+}
+
+
+
+/* Body */
+img {
+    width: 350px;
+    align-self: center;
+    height: 500px;
+}
+.heading{
+    font-family:initial;
+    text-align:center;
+    color:crimson;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.content{
+    font-family:initial;
+    font-size: 25px;
+}
+
+.furthur-info{
+    font-family:initial;
+    text-align:center;
+    color:crimson;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    font-family:initial;
+    font-size: 25px;
+}
+
+/* Footer Styling */
+footer{
+    background : rgb(211, 202, 205);
+    text-align: center;
+    color:black;
+    font-weight: bolder ;
+}
+.footer-line1{
+    font-size: 25px;
+    padding : 10px 0;
+    font-family: emoji;
+}
+.footer-line2{
+    font-family:emoji;
+    font-size:25px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
